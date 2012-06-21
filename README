@@ -1,3 +1,8 @@
 This is a "no-framework" version of a URL Shortner that you can manage and keep on your server.
 
+HOW TO USE:
+
+1. Edit the '_config/config.php' to your database credentials & site settings.
+2. Upload (or copy & paste) the db.sql into your database.
+
 @TODO Display number of 'clicks' for each url.
