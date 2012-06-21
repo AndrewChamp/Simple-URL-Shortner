@@ -1,0 +1,18 @@
+﻿*{margin:0; padding:0; border:0; outline:0;}
+
+body{font-family:arial, sans-serif; font-size:14px; color:#333;}
+
+h1{padding:20px 0 20px 40px;}
+p.about{padding:10px 0 10px 80px;}
+
+input[type="text"]{border:5px solid #CCC; background:#FFF; padding:5px 10px; border-radius:5px;}
+
+.allDomains{display:block; clear:both; overflow:hidden; margin:20px 0; padding:0 10px;}
+.allDomains li.title{font-weight:bold;}
+.allDomains li{margin:0 0 5px 0; padding:0 0 5px 0; display:block; overflow:hidden; border-bottom:1px solid #CCC;}
+.allDomains li span{float:left; width:50%; margin:0 10px 0 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.allDomains li a.delete{float:right; margin:0 0 0 10px; color:#FF0000; text-decoration:none;}
+
+#makeDomain{margin:0 auto; clear:both; margin:20px; padding:0 0 20px 0; border-bottom:5px solid #999;}
+#makeDomain input[type="text"]{width:60%;}
+#makeDomain input[type="submit"]{padding:10px; margin:0 0 0 10px;}
