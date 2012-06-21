@@ -29,7 +29,7 @@
 class Database{
 
 	// debug flag for showing error messages
-	public	$debug = DISPLAY_ERRORS;
+	public	$debug = FALSE;
 
 	// Store the single instance of Database
 	private static $instance;
